@@ -35,10 +35,11 @@ Source code [here](https://github.com/tbender4/relay-pass-changer).
 This is an iOS and Swift group project during my time attending CodePath. I was responsible for most of the backend.
 It combines the Eventbrite API and the Google Maps API to show nearby hackathons based off the user's location.
 
-![hack1](https://github.com/tbender4/hackfinder/raw/master/screenshots/map.png)
-![hack2](https://github.com/tbender4/hackfinder/raw/master/screenshots/halfview.png)
-![hack3](https://github.com/tbender4/hackfinder/raw/master/screenshots/listview.png)
-![hack4](https://github.com/tbender4/hackfinder/raw/master/screenshots/detail.png)
+gallery:
+ - image_path: https://github.com/tbender4/hackfinder/raw/master/screenshots/map.png
+ - image_path: https://github.com/tbender4/hackfinder/raw/master/screenshots/halfview.png
+ - image_path: https://github.com/tbender4/hackfinder/raw/master/screenshots/listview.png
+ - image_path: https://github.com/tbender4/hackfinder/raw/master/screenshots/detail.png
 
 
 Full descriptions and source code [here](https://github.com/tbender4/hackfinder).
