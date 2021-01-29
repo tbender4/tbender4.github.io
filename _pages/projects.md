@@ -1,6 +1,13 @@
 ---
 permalink: /projects/
 title: "Recent Coding Projects"
+
+gallery:
+ - image_path: https://github.com/tbender4/hackfinder/raw/master/screenshots/map.png
+ - image_path: https://github.com/tbender4/hackfinder/raw/master/screenshots/halfview.png
+ - image_path: https://github.com/tbender4/hackfinder/raw/master/screenshots/listview.png
+ - image_path: https://github.com/tbender4/hackfinder/raw/master/screenshots/detail.png
+
 ---
 
 My go-to language when I want to tackle a project is Python, however I've had previous experience with C/C++, Javascript, and Swift.
@@ -35,11 +42,6 @@ Source code [here](https://github.com/tbender4/relay-pass-changer).
 This is an iOS and Swift group project during my time attending CodePath. I was responsible for most of the backend.
 It combines the Eventbrite API and the Google Maps API to show nearby hackathons based off the user's location.
 
-gallery:
- - image_path: https://github.com/tbender4/hackfinder/raw/master/screenshots/map.png
- - image_path: https://github.com/tbender4/hackfinder/raw/master/screenshots/halfview.png
- - image_path: https://github.com/tbender4/hackfinder/raw/master/screenshots/listview.png
- - image_path: https://github.com/tbender4/hackfinder/raw/master/screenshots/detail.png
-
+{% include gallery caption="Quick gallery of HackFinder." %}
 
 Full descriptions and source code [here](https://github.com/tbender4/hackfinder).
