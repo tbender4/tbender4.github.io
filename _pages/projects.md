@@ -10,7 +10,7 @@ gallery:
 
 ---
 
-My go-to language when I want to tackle a project is Python, however I've had previous experience with C/C++, Javascript, and Swift.
+My go-to language when I want to tackle a project is Python. I previous experience with C/C++, Javascript, and Swift.
 Below are my most recent projects.
 
 ## Micro Scan
@@ -27,15 +27,14 @@ Full features and source code [here](https://github.com/tbender4/micro-scan).
 
 ## Relay Pass Changer
 
-Batch password changer software for ControlByWeb's industrial web relays. It allows queueing login and URL credentials with the new password to update all units' password.
+Batch password changer software for ControlByWeb's industrial web relays. It allows queueing login and URL credentials along with the new password to update all units' passwords.
 - This project uses Selenium to target the web elements of a web relay's configuration page and automates navigating to the password changing procedure.
 - GUI is by Python's tkinter library.
 
-![micro-scan](/assets/images/projects/micro-scan@0.5x.png)
+![relay-pass-changer](/assets/images/projects/replay-pass-changer.png)
 
 Source code [here](https://github.com/tbender4/relay-pass-changer).
 
-![micro-scan](/assets/images/projects/relay-pass-changer.png)
 
 ## HackFinder
 
