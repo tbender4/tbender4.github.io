@@ -89,6 +89,7 @@ author:
 defaults:
   # _posts
   - scope:
+    classes: wide
       path: ""
       type: posts
     values:
