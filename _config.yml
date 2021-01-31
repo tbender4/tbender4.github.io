@@ -88,7 +88,6 @@ author:
 
 defaults:
   # _posts
-  - classes: wide
   - scope:
       path: ""
       type: posts
@@ -97,6 +96,7 @@ defaults:
       author_profile: true
       read_time: true
       comments: true
+      classes: wide
       # share: true
       share: false
       show_date: true

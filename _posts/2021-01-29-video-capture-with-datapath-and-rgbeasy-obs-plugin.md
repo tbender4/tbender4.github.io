@@ -5,7 +5,7 @@ categories: [retro, video capture]
 excerpt_separator: "<!--more-->"
 # last_modified_at: 2016-03-09T16:20:02-05:00
 tags: [retro, gaming, datapath, video capture]
-class: wide
+classes: wide
 
 
 ---
@@ -41,7 +41,6 @@ Screenshot credit to FirebrandX.
 
 As an H.265 video, the differences between the two are less pronounced as it'll be inevitably compressed.
 
-{% comment %}
 And as a bonus, here's the same PS1 as earlier when hooked up to an OSSC.
 {% endcomment %}
 
