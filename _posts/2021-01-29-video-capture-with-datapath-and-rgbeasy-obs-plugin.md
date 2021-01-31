@@ -35,7 +35,7 @@ Here's a comparsion between normal settings and oversampling on a Sega Genesis.
 
 {% comment %}
 ![image](/assets/images/2021-01-29-video-capture-with-datapath-and-rgbeasy-obs-plugin/gen_sor2_fbx.png)
-{% uncomment %}
+{% endcomment %}
 
 Screenshot credit to FirebrandX.
 
@@ -43,5 +43,5 @@ As an H.265 video, the differences between the two are less pronounced as it'll 
 
 {% comment %}
 And as a bonus, here's the same PS1 as earlier when hooked up to an OSSC.
-{% uncomment %}
+{% endcomment %}
 
