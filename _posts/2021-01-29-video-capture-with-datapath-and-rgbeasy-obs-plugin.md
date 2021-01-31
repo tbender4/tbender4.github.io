@@ -32,9 +32,11 @@ Detailed configuration settings and tutorial are listed on the [r3 wiki](r3.fyi)
 Oversampling is an alternative configuration by multiplying the Horizontal Resolution and H. Size by the same constant. It serves as a workaround for if a game's native resolution requires a fractional H.Size (ex: 427.5 can be multiplied by 2 to be 855 instead). It also drastically increases the tolerance for tuning Phase to get the picture right. This  feature is limited to the RGBEasy API and does **not** work in DirectShow sources. The one caveat of oversampling is the slightly blurrier appearance when scrutinized at full resolution. It's worth attempting both configurations to see which one looks best.
 
 Here's a comparsion between normal settings and oversampling on a Sega Genesis.
+
 {% comment %}
 ![image](/assets/images/2021-01-29-video-capture-with-datapath-and-rgbeasy-obs-plugin/gen_sor2_fbx.png)
 {% uncomment %}
+
 Screenshot credit to FirebrandX.
 
 As an H.265 video, the differences between the two are less pronounced as it'll be inevitably compressed.
