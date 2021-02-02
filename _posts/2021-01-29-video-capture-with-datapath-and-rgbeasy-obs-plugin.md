@@ -5,7 +5,7 @@ categories: [retro, video capture]
 excerpt_separator: "<!--more-->"
 last_modified_at: 2021-02-02
 tags: [retro, gaming, datapath, video capture]
-classes: wid
+classes: wide
 
 gallery1:
   - image_path: /assets/images/2021-01-29-video-capture-with-datapath-and-rgbeasy-obs-plugin/ps1_gt.png
@@ -19,7 +19,7 @@ gallery2:
 
 *Quick primer of Datapath VisionRGB Capture Cards here*
 
-When capturing and streaming older video game consoles with Datapath Capture Cards in OBS Studio, [beeanyew'S RGBEasy plugin](https://github.com/beeanyew/datapath-RGBeasy) is an improvement over the default OBS DirectShow implementation as it's easier to configure and has oversampling support (explained later).
+When capturing and streaming older video game consoles with Datapath Capture Cards in OBS Studio, [beeanyew's RGBEasy plugin](https://github.com/beeanyew/datapath-RGBeasy) is an improvement over the default OBS DirectShow implementation as it's easier to configure and has oversampling support (explained later).
 
 ## Quick Comparison
 
