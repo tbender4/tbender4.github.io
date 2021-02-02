@@ -1,5 +1,4 @@
 ---
-
 title: "Video Capture with Datapath Cards and RGBEasy OBS Plugin"
 categories: [retro, video capture]
 excerpt_separator: "<!--more-->"
