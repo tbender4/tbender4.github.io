@@ -1,4 +1,5 @@
 ---
+
 title: "Video Capture with Datapath Cards and RGBEasy OBS Plugin"
 categories: [retro, video capture]
 excerpt_separator: "<!--more-->"
@@ -9,12 +10,12 @@ classes: wide
 gallery:
     - url: /assets/images/2021-01-29-video-capture-with-datapath-and-rgbeasy-obs-plugin/ps1_gt.png
       image_path: /assets/images/2021-01-29-video-capture-with-datapath-and-rgbeasy-obs-plugin/ps1_gt.png
-      title: "Grand Turismo (Playstation) RGB SCART (left) and HDMI via PS1Digital (right)." 
+      title: "Grand Turismo (Playstation) RGB SCART (left) and HDMI via PS1Digital (right)."
 
 gallery2:
     - url: /assets/images/2021-01-29-video-capture-with-datapath-and-rgbeasy-obs-plugin/FBX-OSSC-4x320-Genesis.png
       image_path: /assets/images/2021-01-29-video-capture-with-datapath-and-rgbeasy-obs-plugin/FBX-OSSC-4x320-Genesis.png
-      title: "Streets of Rage 2 native resolution (left) and 4x Oversample (right)" 
+      title: "Streets of Rage 2 native resolution (left) and 4x Oversample (right)"
 
 ---
 
@@ -89,3 +90,4 @@ Here's a comparsion of normal settings and oversampling on a Sega Genesis. Scree
 {% include gallery id="gallery2" caption="Streets of Rage 2 native resolution (left) and 4x Oversample (right). %}
 
 For video playback or a livestream, the differences between the two are less pronounced as it'll be inevitably compressed. It's worth attempting both configurations to see if the capture looks best with normal settings or with the conveniences afforded by oversampling.
+
