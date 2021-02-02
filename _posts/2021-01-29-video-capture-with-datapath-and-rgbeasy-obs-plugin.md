@@ -87,6 +87,6 @@ Finally, the output resolution must be scaled back to a proper 4:3 ratio image. 
 
 Here's a comparsion of normal settings and oversampling on a Sega Genesis. Screenshot credit to [FirebrandX.](https://twitter.com/FBXGargoyle)
 
-{% include gallery id="gallery2" caption="Streets of Rage 2 native resolution (left) and 4x Oversample (right). %}
+{% include gallery id="gallery2" caption="Streets of Rage 2 native resolution (left) and 4x Oversample (right)." %}
 
 For video playback or a livestream, the differences between the two are less pronounced as it'll be inevitably compressed. It's worth attempting both configurations to see if the capture looks best with normal settings or with the conveniences afforded by oversampling.
