@@ -7,13 +7,15 @@ last_modified_at: 2021-02-02
 tags: [retro, gaming, datapath, video capture]
 classes: wide
 
-gallery1:
-  - image_path: /assets/images/2021-01-29-video-capture-with-datapath-and-rgbeasy-obs-plugin/ps1_gt.png
-    title: "Grand Turismo (Playstation) RGB SCART (left) and HDMI via PS1Digital (right)." 
+gallery:
+    - url: /assets/images/2021-01-29-video-capture-with-datapath-and-rgbeasy-obs-plugin/ps1_gt.png
+      image_path: /assets/images/2021-01-29-video-capture-with-datapath-and-rgbeasy-obs-plugin/ps1_gt.png
+      title: "Grand Turismo (Playstation) RGB SCART (left) and HDMI via PS1Digital (right)." 
 
 gallery2:
-  - image_path: /assets/images/2021-01-29-video-capture-with-datapath-and-rgbeasy-obs-plugin/FBX-OSSC-4x320-Genesis.png
-    title: "Streets of Rage 2 native resolution (left) and 4x Oversample (right)" 
+    - url: /assets/images/2021-01-29-video-capture-with-datapath-and-rgbeasy-obs-plugin/FBX-OSSC-4x320-Genesis.png
+      image_path: /assets/images/2021-01-29-video-capture-with-datapath-and-rgbeasy-obs-plugin/FBX-OSSC-4x320-Genesis.png
+      title: "Streets of Rage 2 native resolution (left) and 4x Oversample (right)" 
 
 ---
 
@@ -25,7 +27,7 @@ When capturing and streaming older video game consoles with Datapath Capture Car
 
 Below is the original Playstation with both stock analog RGB video via SCART (left) and lossless digital video with the [PS1Digital](https://www.black-dog.tech/ps1digital.html) mod. (right).
 
-{% include gallery id="gallery1" %}
+{% include gallery %}
 
 
 The RGB source is configured with 4x oversampling using the RGBEasy Plugin and integer/point upscaled to 1280x960 resolution. The PS1Digital upscaling is integer scaled to the same resolution and represents a "best-case scenario" of video quality.
@@ -65,6 +67,7 @@ The final resolution must also be scaled back to a proper 4:3 ratio image. This 
 - Has a slight amount of blur when scrutinized at full resolution.
 
 Here's a comparsion between normal settings and oversampling on a Sega Genesis. Screenshot credit to FirebrandX.
+
 {% include gallery id="gallery2" %}
 
 It's worth attempting both configurations to see if the game look best at its sharpest or with the conveniences afforded by oversampling.
