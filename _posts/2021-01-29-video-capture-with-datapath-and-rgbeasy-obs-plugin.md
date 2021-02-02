@@ -53,9 +53,9 @@ For game consoles that have a 240p or otherwise non-standard resolution, Datapat
 
 *TODO: Do updated RGBEasy+OBS capture writeup.*
 
-Configuration tutorial is available on the [r3 wiki](https://r3.fyi/Datapath/Capture240p).
-H.samplerate timings for the OSSC is the same as H. Size for Datapath cards and can be referred to for the appropriate console and in-game resolution. [Junkerhq has timings for some popular consoles.](http://junkerhq.net/xrgb/index.php?title=Optimal_timings)
-FirebrandX has a detailed video of how to manually find optimal settings which can be useful if the console and game-resolution is yet to be documentd. [Watch here.](https://www.youtube.com/watch?v=EBStHr4XCTg)
+- Configuration tutorial is available on the [r3 wiki](https://r3.fyi/Datapath/Capture240p).
+- H.samplerate timings for the OSSC is the same as H. Size for Datapath cards and can be referred to for the appropriate console and in-game resolution. [Junkerhq has timings for some popular consoles.](http://junkerhq.net/xrgb/index.php?title=Optimal_timings)
+- FirebrandX has a detailed video of how to manually find optimal settings which can be useful if the console and target resolution is yet to be documented. [Watch here.](https://www.youtube.com/watch?v=EBStHr4XCTg)
 
 ## Oversampling
 
