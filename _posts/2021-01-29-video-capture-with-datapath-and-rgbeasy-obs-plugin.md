@@ -19,7 +19,7 @@ gallery2:
 
 ---
 
-*Quick primer of Datapath VisionRGB Capture Cards here*
+*TODO: Quick primer of Datapath VisionRGB Capture Cards*
 
 When capturing and streaming older video game consoles with Datapath Capture Cards in OBS Studio, [beeanyew's RGBEasy plugin](https://github.com/beeanyew/datapath-RGBeasy) is an improvement over the default OBS DirectShow implementation as it's easier to configure and has oversampling support (explained later).
 
@@ -27,7 +27,7 @@ When capturing and streaming older video game consoles with Datapath Capture Car
 
 Below is the original Playstation with both stock analog RGB video via SCART (left) and lossless digital video with the [PS1Digital](https://www.black-dog.tech/ps1digital.html) mod. (right).
 
-{% include gallery %}
+{% include gallery caption="Grand Turismo (Playstation) RGB SCART (left) and HDMI via PS1Digital (right)." %}
 
 
 The RGB source is configured with 4x oversampling using the RGBEasy Plugin and integer/point upscaled to 1280x960 resolution. The PS1Digital upscaling is integer scaled to the same resolution and represents a "best-case scenario" of video quality.
@@ -58,9 +58,9 @@ The final resolution must also be scaled back to a proper 4:3 ratio image. This 
 
 ### Why to Oversample
 
+- **Significantly** increases the tolerance for tuning Phase to get the picture right.
 - Serves as a workaround for if a game's native resolution requires a fractional H.Size (ex: 427.5 can be multiplied by 2 to be 855 instead).
-- Can be a workaround for games that switches between two resolutions by using a H. Resolution where both in-game H. Resolutions are multiples of the oversample. This is described in detail on the Genesis page of the [r3 wiki](http://r3.fyi/VGC/GEN)
-- **Significantly** increases the tolerance for tuning Phase to get the picture right. 
+- Can be a workaround for games that switches between two resolutions by using a oversampled resolution where both in-game H. Resolutions are multiples of the oversample. This is described in detail on the Genesis page of the [r3 wiki](http://r3.fyi/VGC/GEN)
 
 
 ### A Disadvantage
@@ -70,15 +70,5 @@ Here's a comparsion between normal settings and oversampling on a Sega Genesis. 
 
 {% include gallery id="gallery2" %}
 
-It's worth attempting both configurations to see if the game look best at its sharpest or with the conveniences afforded by oversampling.
-
-
-{% comment %}
-![image](/assets/images/2021-01-29-video-capture-with-datapath-and-rgbeasy-obs-plugin/gen_sor2_fbx.png)
-
-
-As an H.265 video, the differences between the two are less pronounced as it'll be inevitably compressed.
-
-And as a bonus, here's the same PS1 as earlier when hooked up to an OSSC.
-{% endcomment %}
+As an H.265 video, the differences between the two are less pronounced as it'll be inevitably compressed. It's worth attempting both configurations to see if the capture looks best with normal settings or with the conveniences afforded by oversampling.
 
