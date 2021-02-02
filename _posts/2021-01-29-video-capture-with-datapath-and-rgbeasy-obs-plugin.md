@@ -21,7 +21,9 @@ gallery2:
 
 *TODO: Quick primer of Datapath VisionRGB Capture Cards*
 
-When capturing and streaming older video game consoles with Datapath Capture Cards in OBS Studio, [beeanyew's RGBEasy plugin](https://github.com/beeanyew/datapath-RGBeasy) is an improvement over the default OBS DirectShow implementation as it's easier to configure and has oversampling support (explained later).
+## RGBEasy OBS Plugin
+
+When capturing and streaming older video game consoles with Datapath capture cards in OBS Studio, [beeanyew's RGBEasy plugin](https://github.com/beeanyew/datapath-RGBeasy) is an improvement over the default OBS DirectShow implementation as it's easier to configure and has oversampling support.
 
 ## Quick Comparison
 
@@ -29,14 +31,21 @@ Below is the original Playstation with both stock analog RGB video via SCART (le
 
 {% include gallery caption="Grand Turismo (Playstation) RGB SCART (left) and HDMI via PS1Digital (right)." %}
 
-
-The RGB source is configured with 4x oversampling using the RGBEasy Plugin and integer/point upscaled to 1280x960 resolution. The PS1Digital upscaling is integer scaled to the same resolution and represents a "best-case scenario" of video quality.
+The RGB source is configured with 4x oversampling using the RGBEasy Plugin and integer/point upscaled in OBS to 1280x960 resolution. The PS1Digital  is integer scaled natively to the same resolution and represents a "best-case scenario" of video quality.
 
 Video capture of older consoles through the Datapath E1 is very impressive! At a glance the final result is very close to emulation picture quality.
 
+## Hardware
+
+The following is for the above Playstation RGB capture:
+
+- [Datapath VisionRGB series capture card](https://ebay.to/39EwivC)
+- [Insurrection Industries Sony Playstation SCART Video Cable](https://insurrectionindustries.com/product/sega-genesis-model-1-rgb-scart-cable/)
+- [SCART2DVI Video Adapter](https://gamesconnection.co.uk/products/scart2dvi?variant=21855284101209)
+
 ## Normal  Configuration
 
-For game consoles that have a 240p or otherwise non-standard resolution, Datapath cards are not a plug-and-play solution for video capture. It requires game-specific configuration in the RGBEasy plugin to look correct.
+For game consoles that have a 240p or otherwise non-standard resolution, Datapath cards are **not** a plug-and-play solution for video capture. It requires game-specific configuration in the RGBEasy plugin settings to look correct.
 
 *TODO: Do updated RGBEasy+OBS capture writeup.*
 
@@ -44,7 +53,7 @@ Configuration tutorial is available on the [r3 wiki](https://r3.fyi/Datapath/Cap
 
 ## Oversampling
 
-Oversampling is an alternative configuration by multiplying the Horizontal Resolution and H. Size by the same constant. It has a few advantages over doing a normal sample and integer-scale in software. This feature is limited to the RGBEasy API and does **not** work in DirectShow (labeled as Video Capture Devices in OBS), making the RGBEasy plugin a requirement.
+Oversampling is an alternative configuration by multiplying the Horizontal Resolution and H. Size by the same constant. It has a few advantages over doing a normal sample in software. This feature is limited to the RGBEasy API and does **not** work in DirectShow (labeled as Video Capture Devices in OBS), making the RGBEasy plugin a requirement.
 
 As an example, here's a comparison of capture settings for Gran Turismo:
 
@@ -52,9 +61,13 @@ As an example, here's a comparison of capture settings for Gran Turismo:
 | --- | --- |
 | H. Resolution | 256 | 1024 *(4\*256)* |
 | V. Resolution | 240 | 240 |
-| H. Size | 341.**25** | 1365 *(4\*341.25)* |
+| H. Size | 341.25 | 1365 *(4\*341.25)* |
 
-The final resolution must also be scaled back to a proper 4:3 ratio image. This can be achieved using the Scaing/Aspect Ratio filter in OBS.
+*TODO: Fill in rest of the settings*
+
+The oversampled H. Resolution and H. Size is the normal sample settings multiplied by the same number (4 in the above example). The H. Resolution has an upper limit is 2048, so you can use a multiplier as high as allowed.
+
+Finally, the output resolution must be scaled back to a proper 4:3 ratio image. This can be achieved using the Scaing/Aspect Ratio filter in OBS.
 
 ### Why to Oversample
 
@@ -70,5 +83,8 @@ Here's a comparsion between normal settings and oversampling on a Sega Genesis. 
 
 {% include gallery id="gallery2" %}
 
-As an H.265 video, the differences between the two are less pronounced as it'll be inevitably compressed. It's worth attempting both configurations to see if the capture looks best with normal settings or with the conveniences afforded by oversampling.
+For video playback or a livestream, the differences between the two are less pronounced as it'll be inevitably compressed. It's worth attempting both configurations to see if the capture looks best with normal settings or with the conveniences afforded by oversampling.
+
+## VCS - Alternative setup
+
 
