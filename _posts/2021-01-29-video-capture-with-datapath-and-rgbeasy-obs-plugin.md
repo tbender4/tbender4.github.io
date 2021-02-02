@@ -31,7 +31,7 @@ The rest of this post will be focused on configuring the Datapath card using bee
 
 ## Quick Comparison
 
-Below is the original Playstation with both stock analog RGB video via SCART (left) and lossless digital video with the [PS1Digital](https://www.black-dog.tech/ps1digital.html) mod. (right).
+Below is the original Playstation with both stock analog RGB video via SCART (left) and lossless digital video with the [PS1Digital](https://www.black-dog.tech/ps1digital.html) mod (right).
 
 {% include gallery caption="Grand Turismo (Playstation) RGB SCART (left) and HDMI via PS1Digital (right)." %}
 
@@ -85,9 +85,8 @@ Finally, the output resolution must be scaled back to a proper 4:3 ratio image. 
 ### A Disadvantage
 - Has a slight amount of softness when scrutinized at full resolution.
 
-Here's a comparsion of normal settings and oversampling on a Sega Genesis. Screenshot credit to [FirebrandX](https://twitter.com/FBXGargoyle).
+Here's a comparsion of normal settings and oversampling on a Sega Genesis. Screenshot credit to [FirebrandX.](https://twitter.com/FBXGargoyle)
 
 {% include gallery id="gallery2" caption="Streets of Rage 2 native resolution (left) and 4x Oversample (right). %}
 
 For video playback or a livestream, the differences between the two are less pronounced as it'll be inevitably compressed. It's worth attempting both configurations to see if the capture looks best with normal settings or with the conveniences afforded by oversampling.
-
