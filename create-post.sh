@@ -1,6 +1,6 @@
 #!/bin/bash
 shopt -s expand_aliases		#I have vim=nvim in my bash_profile
-source ~/.bash_profile		
+source ~/.zshrc		
 
 bold=$(tput bold)		#Allows bold output
 normal=$(tput sgr0)
@@ -33,7 +33,7 @@ fi
 
 #Goals: 1. Convert to lowercase. 2. replace spaces to dashes
 
-titleNoSpaces="${title// /-}"
+titleNoSpaces=`${title// /-}`
 titleConversion=$(echo $titleNoSpaces | tr '[:upper:]' '[:lower:]')
 echo $titleConversion
 
@@ -42,7 +42,8 @@ echo $titleConversion
 
 today=`date '+%Y-%m-%d'`
 filename="$today"-"$titleConversion"
-mkdir ../assets/images/$filename
+mkdir assets/images/$filename
+cd _posts
 
 if [ -e "$filename.md" ]
 then

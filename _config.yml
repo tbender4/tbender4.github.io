@@ -13,10 +13,10 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Thomas Bender's Tech Site
+title: tbender's Blog
 email: thomas.bender82@qmail.cuny.edu
 description: >- # this means to ignore newlines until "baseurl:"
-  Thomas Bender's Tech ramblings from Software Dev to Hardware and everything inbetween.
+  Software Developer, Retro Hardware Tinkerer, and everything inbetween.
 twitter_username: tbender95
 github_username: tbender4
 minimal_mistakes_skin: air
@@ -59,7 +59,7 @@ plugins:
 author:
   name   : "Thomas Bender"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "Thomas Bender's Tech ramblings from Software Dev to Hardware and everything inbetween."
+  bio    : "Software Developer, Retro Hardware, and everything inbetween."
   links:
     # - label: "Website"
     #  icon: "fas fa-fw fa-link"
